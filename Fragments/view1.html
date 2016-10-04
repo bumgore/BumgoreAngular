@@ -1,0 +1,15 @@
+<div class="container">
+
+		<h1>View1</h1>
+		<input type="text" ng-model="search.Name" /> 
+		<br />
+		<ul>
+			<li ng-repeat="foo in testArray | filter: search.Name | orderBy: 'Age'">{{ foo.Name | uppercase }} - {{ foo.Age }}</li>
+		</ul>
+		<br />
+		New Name: <input type="text" ng-model="newTestArray.Name" /> 
+		<br />
+		New Age: <input type="number" ng-model="newTestArray.Age" /> 
+		<button ng-click="addTestArray()">Add New</button>
+
+</div>
