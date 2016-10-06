@@ -25,7 +25,7 @@ tigControl.junController = function ($scope) {
 	{Name: 'Jun Alfie', Age: '26'}, 
 	{Name: 'Simud', Age: '25'}, 
 	{Name: 'Marjun', Age: '18'}, 
-	{Name: 'Jun', Age: '32'}
+	{Name: 'Jun', Age: '36'}
 	];
 
 	   $scope.addTestArray = function (){
