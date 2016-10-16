@@ -1,8 +1,10 @@
 <html ng-app="junApp">
 <head>
 <title>Test Angular</title>
+<link href="includes/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+<div ng-include src="'includes/nav.html'"></div>
 	<a href="#/view1">View1</a>
 	<a href="#/view2">View2</a>
 	<div ng-view></div>
